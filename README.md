@@ -51,8 +51,6 @@
 
 ## Асинхронне викликання методів
 
-### UML-діаграма
-![Asynchronous Method Invocation UML](./uml/asynchronous_method_invocation.png)
 
 ### Опис
 Шаблон "Асинхронне викликання методів" дозволяє методу повертатися до викликача негайно і виконуватись у іншому потоці. Це корисно для виконання тривалих операцій без блокування викликаючого потоку.
@@ -60,4 +58,9 @@
 ### Реалізація
 - [AsynchronousMethodInvocation.cs](./AsynchronousMethodInvocation/AsynchronousMethodInvocation.cs)
 
+### Статична модель 
 
+![Статична модель Bridge](Asynchronousstat.png)
+
+### Динамічна модель 
+![Динамічна модель Bridge](Asynchronousdin.png)
